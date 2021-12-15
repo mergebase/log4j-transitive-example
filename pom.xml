@@ -18,6 +18,13 @@
             <artifactId>twilio</artifactId>
             <version>8.6.1</version>
         </dependency>
+
+        <!-- jsch-0.1.53.jar is vulnerable to CVE-2016-5725 -->
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>0.1.53</version>
+        </dependency>
     </dependencies>
 
 </project>
